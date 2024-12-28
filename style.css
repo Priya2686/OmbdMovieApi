@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.maindiv {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+.demo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  width: 30%;
+}
+.demo h1 {
+  font-size: 1.6em;
+  color: rebeccapurple;
+  margin-top: 5%;
+}
+.demo h2 {
+  margin-bottom: 5%;
+  font-size: 1em;
+  color: brown;
+}
+.demo img {
+  height: 200px;
+  width: 50%;
+  border-radius: 100%;
+}
+#searchmoviename {
+  width: 40%;
+  height: 30px;
+}
+.click {
+  display: flex;
+  justify-content: center;
+}
+#btn {
+  width: 10%;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}

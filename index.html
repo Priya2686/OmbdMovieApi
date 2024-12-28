@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>omdbapi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form
+      action=""
+      class="click"
+      onsubmit="event.preventDefault(); getOmdbapi()"
+    >
+      <input type="type" id="searchmoviename" placeholder="Movie name" />
+      <input type="button" id="btn" value="click" onclick="getOmdbapi()" />
+    </form>
+
+    <div class="maindiv" id="maindiv"></div>
+
+    <div id="display"></div>
+  </body>
+  <script src="./app.js"></script>
+</html>
